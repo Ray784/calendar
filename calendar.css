@@ -11,6 +11,7 @@ span:hover{
 }
 
 .card{
+	width: 12%;
 	filter: drop-shadow(4px 4px 4px gray);
 	margin: 5px;
 	border-radius: 0px;
@@ -39,3 +40,4 @@ span:hover{
 	filter: drop-shadow(4px 4px 4px gray);
 	margin: 5px;
 }
+
