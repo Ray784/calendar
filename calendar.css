@@ -1,0 +1,41 @@
+body{
+	text-align: center
+}
+
+.container{
+	margin-top: 20px;
+}
+
+span:hover{
+	filter: drop-shadow(2px 2px 2px gray)
+}
+
+.card{
+	filter: drop-shadow(4px 4px 4px gray);
+	margin: 5px;
+	border-radius: 0px;
+	border: none;
+	padding: 7px;
+}
+
+.non{
+	margin: 5px;
+	border-radius: 0px;
+	border: none;
+	padding: 7px;
+}
+
+.head{
+	background-color: #4cc0f6;
+	color: white;
+}
+
+.today{
+	background-color: #4E1147;
+	color: white;
+}
+
+#go{
+	filter: drop-shadow(4px 4px 4px gray);
+	margin: 5px;
+}
