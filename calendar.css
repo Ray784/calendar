@@ -11,7 +11,6 @@ span:hover{
 }
 
 .card{
-	width: 12%;
 	filter: drop-shadow(4px 4px 4px gray);
 	margin: 5px;
 	border-radius: 0px;
@@ -20,7 +19,6 @@ span:hover{
 }
 
 .non{
-	width: 12%;
 	margin: 5px;
 	border-radius: 0px;
 	border: none;
@@ -38,11 +36,22 @@ span:hover{
 }
 
 #go{
-	width: 12%;
 	filter: drop-shadow(4px 4px 4px gray);
 	margin: 5px;
 }
 
- @media only screen and (max-width: 600px) {
- 	
+.card, .non, #go{
+	width: 12%;
+}
+
+ @media only screen and (max-width: 500px) { 	
+	.card, .non, #go{
+		width: 11%;
+	}
  }
+
+@media only screen and (max-width: 320px) { 	
+	.card, .non, #go{
+		width: 10%;
+	}
+}
