@@ -1,57 +1,73 @@
 body{
-	text-align: center
+  	qtext-align: center;
+  	font-family: 'Baloo Da 2', cursive;
+  	user-select: none;
 }
 
-.container{
-	margin-top: 20px;
+.card {
+  	background-color: white;
+  	filter: drop-shadow(4px 4px 4px gray);
+  	cursor: pointer;
+  	color: black;
+  	text-align: center;
+  	padding-top: 20px;
+  	font-size: 150%;
 }
 
-span:hover{
-	filter: drop-shadow(2px 2px 2px gray)
-}
-
-.card{
-	filter: drop-shadow(4px 4px 4px gray);
-	margin: 5px;
-	border-radius: 0px;
-	border: none;
-	padding: 7px;
-}
-
-.non{
-	margin: 5px;
-	border-radius: 0px;
-	border: none;
-	padding: 7px;
+.sun{
+  	background-color: #AC0501;
+  	color: white;
 }
 
 .head{
-	background-color: #4cc0f6;
-	color: white;
+  	background-color: #4CC0F6;
+  	color: white;
+}
+
+.pn{
+	background-color: #46A049;
+ 	color: white;
+}
+#go{
+  	background-color: #23272B;
+  	color: white;
+}
+
+.btn, .slt, .ipt{
+	padding: 0px;
+  	border: none;
+  	font-family: 'Baloo Da 2';
+}
+
+.slt{
+	padding-left: 30px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.btn:active{
+  	filter: grayscale();
 }
 
 .today{
-	background-color: #4E1147;
-	color: white;
+  	background-color: #4E1147;
+  	color: white;
 }
 
-#go{
-	filter: drop-shadow(4px 4px 4px gray);
-	margin: 5px;
+.wrapper {
+  	display: grid;
+  	grid-gap: 10px;
+  	grid-template-columns: repeat(7, 13%);
+  	grid-template-rows: repeat(8, 70px);
+  	grid-auto-flow: row;
 }
 
-.card, .non, #go{
-	width: 12%;
-}
-
- @media only screen and (max-width: 500px) { 	
-	.card, .non, #go{
-		width: 11%;
-	}
- }
-
-@media only screen and (max-width: 320px) { 	
-	.card, .non, #go{
-		width: 10%;
-	}
-}
+.center{
+  	width: 92%;
+  	display: block;
+  	margin: auto;
+}	
