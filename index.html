@@ -16,14 +16,13 @@
   <body>
   	<div class="container col-md-10 col-sm-12 col-xs-12" id = "main">
 		<div class="row" id="header">
-			<button id="prev-month" class="btn col-md col-sm-2 col-xs-2" onclick="getPrev()"><span>&#9664;</span></button>
-			<div id="mm-yy" class="col-md col-sm col-xs row">
-				<select class="card form-control col-md col-sm col-xs" id="months">
-			    </select>
-			    <input class="card form-control col-md col-sm col-xs" type="text" id="year" placeholder="Year">
-			    <button id="go" class="btn btn-dark col-md col-sm col-xs" onclick="Go()">Go</button>
-			</div>
-			<button id="next-month" class="btn col-md col-sm-2 col-xs-2" onclick="getNext()"><span>&#9654;</span></button>
+			<div class='non'></div>
+			<button id="prev-month" class="btn non" onclick="getPrev()"><span>&#9664;</span></button>
+			<select class="card form-control" id="months">
+		    </select>
+		    <input class="card form-control" type="text" id="year" placeholder="Year">
+		    <button id="go" class="btn btn-dark non" onclick="Go()">Go</button>
+			<button id="next-month" class="btn non" onclick="getNext()"><span>&#9654;</span></button>
 		</div>
 		<div id="calendar" class="center">
 		</div>

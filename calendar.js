@@ -36,10 +36,10 @@ function getCalendar(month, year){
 
 	let day = ["SUN","MON","TUE","WED","THU","FRI","SAT"]
 	let row_text_begin = "<div class='row'>"
-	let head_text_begin = "<div class='card head col-md col-sm col-xs'>"
-	let grid_text_begin = "<div class='card col-md col-sm col-xs'>"
-	let non_grid_text_begin = "<div class='non col-md col-sm col-xs'>"
-	let grid_today_begin = "<div class='card today col-md col-sm col-xs'>"
+	let head_text_begin = "<div class='card head'>"
+	let grid_text_begin = "<div class='card'>"
+	let non_grid_text_begin = "<div class='non'>"
+	let grid_today_begin = "<div class='card today'>"
 	end = "</div>"
 
 	let calendar_grid = Array(7)

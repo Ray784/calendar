@@ -20,6 +20,7 @@ span:hover{
 }
 
 .non{
+	width: 12%;
 	margin: 5px;
 	border-radius: 0px;
 	border: none;
@@ -37,7 +38,11 @@ span:hover{
 }
 
 #go{
+	width: 12%;
 	filter: drop-shadow(4px 4px 4px gray);
 	margin: 5px;
 }
 
+ @media only screen and (max-width: 600px) {
+ 	
+ }
